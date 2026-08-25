@@ -1,4 +1,4 @@
-import { Wrench, PaintRoller, Zap, SprayCan, Sparkles, Fan, ArrowUpRight } from "lucide-react";
+import { Wrench, PaintRoller, Zap, SprayCan, Sparkles, Fan, Sofa, Bug, Droplets, ArrowUpRight } from "lucide-react";
 
 const services = [
   {
@@ -31,6 +31,21 @@ const services = [
     title: "AC Service",
     copy: "Gas top-up, filter cleaning and full servicing to get you through the Rajasthan summer in comfort.",
   },
+  {
+    icon: Sofa,
+    title: "Sofa Cleaning",
+    copy: "Deep shampoo and steam cleaning that lifts stains and dust, bringing fabric and colour back to life.",
+  },
+  {
+    icon: Bug,
+    title: "Pest Control",
+    copy: "Cockroaches, termites, mosquitoes and rodents treated with safe, effective methods that actually last.",
+  },
+  {
+    icon: Droplets,
+    title: "RO Service",
+    copy: "Filter changes, tank cleaning and full servicing to keep your RO running clean against Jaipur's hard water.",
+  },
 ];
 
 export default function Services() {
@@ -42,7 +57,7 @@ export default function Services() {
             What We Do
           </p>
           <h2 className="font-display text-3xl sm:text-4xl md:text-[2.6rem] leading-[1.1] text-ink text-balance">
-            Six services, one number saved in your phone.
+            Nine services, one number saved in your phone.
           </h2>
         </div>
 
@@ -61,6 +76,7 @@ export default function Services() {
                   {service.title}
                 </h3>
                 <p className="text-sm leading-relaxed text-ink/65 mb-5">{service.copy}</p>
+                
                 <a
                   href="tel:+919876543210"
                   className="inline-flex items-center gap-1 text-sm font-semibold text-rose"
