@@ -25,11 +25,11 @@ export default function CityAvailability() {
               Our home base — every service, every day, across the Pink City.
             </p>
             <a
-              href="tel:+919351222608"
+              href="tel:+919001796614"
               className="inline-flex items-center gap-2 rounded-full bg-rose hover:bg-rose-dark transition-colors text-ivory px-7 py-3.5 font-semibold text-sm sm:text-base"
             >
               <Phone size={16} strokeWidth={2.25} />
-               +91 93512 22608
+               +91 90017 96614
             </a>
           </div>
 
@@ -48,11 +48,12 @@ export default function CityAvailability() {
               The City of Lakes, covered by the same trusted standard of work.
             </p>
             <a
-              href="tel:+919123456780"
+              href="tel:+918955103727
+"
               className="inline-flex items-center gap-2 rounded-full bg-rose hover:bg-rose-dark transition-colors text-ivory px-7 py-3.5 font-semibold text-sm sm:text-base"
             >
               <Phone size={16} strokeWidth={2.25} />
-              +91 91234 56780
+              +91 89551 03727
             </a>
           </div>
         </div>

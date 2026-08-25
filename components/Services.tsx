@@ -1,4 +1,4 @@
-import { Wrench, PaintRoller, Zap, SprayCan, Sparkles, Fan, Sofa, Bug, Droplets, ArrowUpRight } from "lucide-react";
+import { Wrench, PaintRoller, Zap, SprayCan, Sparkles, Fan, Sofa, Bug, Droplets, Waves, ArrowUpRight } from "lucide-react";
 
 const services = [
   {
@@ -46,6 +46,11 @@ const services = [
     title: "RO Service",
     copy: "Filter changes, tank cleaning and full servicing to keep your RO running clean against Jaipur's hard water.",
   },
+  {
+    icon: Waves,
+    title: "Tank Cleaning",
+    copy: "Overhead and underground water tanks cleaned and disinfected — safe drinking water for the whole home.",
+  },
 ];
 
 export default function Services() {
@@ -57,7 +62,7 @@ export default function Services() {
             What We Do
           </p>
           <h2 className="font-display text-3xl sm:text-4xl md:text-[2.6rem] leading-[1.1] text-ink text-balance">
-            Nine services, one number saved in your phone.
+            Ten services, one number saved in your phone.
           </h2>
         </div>
 
@@ -76,7 +81,7 @@ export default function Services() {
                   {service.title}
                 </h3>
                 <p className="text-sm leading-relaxed text-ink/65 mb-5">{service.copy}</p>
-                
+
                 <a
                   href="tel:+919876543210"
                   className="inline-flex items-center gap-1 text-sm font-semibold text-rose"
