@@ -61,14 +61,14 @@ export default function Footer() {
             <ul className="space-y-3.5 text-sm text-ivory/75">
               <li className="flex items-center gap-2.5">
                 <Phone size={15} className="text-brass-light shrink-0" />
-                <a href="tel:+919351222608" className="hover:text-brass-light transition-colors">
-                  +91 93512 22608 <span className="text-ivory/40">(Jaipur)</span>
+                <a href="tel:+919001796614" className="hover:text-brass-light transition-colors">
+                  +91 90017 96614 <span className="text-ivory/40">(Jaipur)</span>
                 </a>
               </li>
               <li className="flex items-center gap-2.5">
                 <Phone size={15} className="text-brass-light shrink-0" />
-                <a href="tel:+919123456780" className="hover:text-brass-light transition-colors">
-                  +91 91234 56780 <span className="text-ivory/40">(Udaipur)</span>
+                <a href="tel:+918955103727" className="hover:text-brass-light transition-colors">
+                  +91 89551 03727 <span className="text-ivory/40">(Udaipur)</span>
                 </a>
               </li>
               <li className="flex items-center gap-2.5">
