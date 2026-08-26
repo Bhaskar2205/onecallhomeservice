@@ -35,7 +35,7 @@ export default function Header() {
         </nav>
 
         <a
-          href="tel:+919876543210"
+          href="tel:+919001796614"
           className="flex items-center gap-2 rounded-full bg-rose text-ivory px-4 sm:px-5 py-2.5 text-sm font-semibold hover:bg-rose-dark transition-colors shrink-0"
         >
           <Phone size={16} strokeWidth={2.25} />

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Phone, Mail, Instagram, Facebook, MessageCircle } from "lucide-react";
 
-const serviceLinks = ["Plumbing", "Painting", "Electrical", "Cleaning", "Deep Cleaning", "AC Service"];
+const serviceLinks = ["Plumbing", "Painting", "Electrical", "Cleaning", "Deep Cleaning", "AC Service", "Sofa Cleaning", "Pest Control", "RO Service", "Tank Cleaning"];
 
 export default function Footer() {
   return (

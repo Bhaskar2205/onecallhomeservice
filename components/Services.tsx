@@ -83,7 +83,7 @@ export default function Services() {
                 <p className="text-sm leading-relaxed text-ink/65 mb-5">{service.copy}</p>
 
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+919001796614"
                   className="inline-flex items-center gap-1 text-sm font-semibold text-rose"
                 >
                   Book this service

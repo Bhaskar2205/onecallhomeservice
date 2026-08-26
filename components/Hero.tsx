@@ -30,7 +30,7 @@ export default function Hero() {
 
         <div className="mt-8 sm:mt-9 flex flex-col xs:flex-row gap-3 sm:gap-4 animate-fadeUp [animation-delay:340ms] opacity-0">
           <a
-            href="tel:+919351222608"
+            href="tel:+919001796614"
             className="inline-flex items-center justify-center gap-2 rounded-full bg-rose hover:bg-rose-light transition-colors text-ivory px-7 py-3.5 font-semibold text-sm sm:text-base"
           >
             <Phone size={17} strokeWidth={2.25} />
