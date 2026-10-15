@@ -1,6 +1,6 @@
 import { Wrench, PaintRoller, Zap, SprayCan, Sparkles, Fan, Sofa, Bug, Droplets, Waves, ArrowUpRight } from "lucide-react";
 
-const services = [
+export const services = [
   {
     icon: Wrench,
     title: "Plumbing",

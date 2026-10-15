@@ -18,9 +18,9 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "OneCallHomeService — Trusted Home Services in Jaipur & Udaipur",
+  title: "OneCallHomeService — Trusted Home Services in Jaipur, Udaipur & Kota",
   description:
-    "Plumbing, painting, electrical, cleaning, deep cleaning and AC service — one call brings a trusted professional to your door in Jaipur and Udaipur.",
+    "Plumbing, painting, electrical, cleaning, deep cleaning and AC service — one call brings a trusted professional to your door in Jaipur, Udaipur and Kota.",
 };
 
 export default function RootLayout({

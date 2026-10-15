@@ -1,6 +1,6 @@
 # One Call Home Service — Website
 
-A single-page Next.js 14 + Tailwind CSS site for a Jaipur/Udaipur home
+A single-page Next.js 14 + Tailwind CSS site for a Jaipur/Udaipur/Kota home
 services brand (Plumbing, Painting, Electrical, Cleaning, Deep Cleaning,
 AC Service).
 
@@ -51,11 +51,12 @@ app/
 components/
   Header.tsx
   Hero.tsx
+  NowInKota.tsx          — "now in Kota" new-city announcement
   WhyUs.tsx              — trust badges (Trusted / On Time / Quality / Satisfaction)
   Services.tsx           — the six services
   BeforeAfterSlider.tsx  — the interactive painting comparison
   PaintingShowcase.tsx   — dark section wrapping the slider
-  CityAvailability.tsx   — Jaipur / Udaipur split with call buttons
+  CityAvailability.tsx   — Jaipur / Udaipur / Kota row with call buttons
   Footer.tsx
 ```
 

@@ -18,7 +18,7 @@ export default function Hero() {
 
       <div className="relative z-10 h-full mx-auto max-w-6xl px-5 sm:px-8 flex flex-col justify-end pb-16 sm:pb-24 pt-28">
         <p className="font-body text-xs sm:text-sm tracking-[0.35em] uppercase text-brass-light mb-4 sm:mb-5 animate-fadeUp">
-          Jaipur &middot; Udaipur
+          Jaipur &middot; Udaipur &middot; Kota
         </p>
         <h1 className="font-display text-[2.6rem] leading-[1.05] sm:text-6xl md:text-7xl text-ivory text-balance max-w-3xl animate-fadeUp [animation-delay:100ms] opacity-0">
           Your home deserves <span className="italic text-brass-light">one call</span> — not five.

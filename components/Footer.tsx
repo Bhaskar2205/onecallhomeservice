@@ -27,7 +27,7 @@ export default function Footer() {
               </span>
             </a>
             <p className="mt-4 text-sm text-ivory/60 leading-relaxed max-w-xs">
-              Trusted home services for Jaipur and Udaipur — one number,
+              Trusted home services for Jaipur, Udaipur and Kota — one number,
               every job, done properly.
             </p>
             <div className="flex items-center gap-3 mt-6">
@@ -69,6 +69,12 @@ export default function Footer() {
                 <Phone size={15} className="text-brass-light shrink-0" />
                 <a href="tel:+918955103727" className="hover:text-brass-light transition-colors">
                   +91 89551 03727 <span className="text-ivory/40">(Udaipur)</span>
+                </a>
+              </li>
+              <li className="flex items-center gap-2.5">
+                <Phone size={15} className="text-brass-light shrink-0" />
+                <a href="tel:+919001716614" className="hover:text-brass-light transition-colors">
+                  +91 90017 16614 <span className="text-ivory/40">(Kota)</span>
                 </a>
               </li>
               <li className="flex items-center gap-2.5">

@@ -3,6 +3,7 @@
 import { Phone } from "lucide-react";
 
 const links = [
+  { href: "#kota", label: "Kota", isNew: true },
   { href: "#services", label: "Services" },
   { href: "#before-after", label: "Before & After" },
   { href: "#why-us", label: "Why Us" },
@@ -27,9 +28,14 @@ export default function Header() {
             <a
               key={link.href}
               href={link.href}
-              className="font-body text-sm font-medium text-ink/75 hover:text-rose transition-colors"
+              className="inline-flex items-center gap-1.5 font-body text-sm font-medium text-ink/75 hover:text-rose transition-colors"
             >
               {link.label}
+              {link.isNew && (
+                <span className="rounded-full bg-rose text-ivory text-[9px] tracking-[0.15em] uppercase font-bold px-1.5 py-0.5">
+                  New
+                </span>
+              )}
             </a>
           ))}
         </nav>
